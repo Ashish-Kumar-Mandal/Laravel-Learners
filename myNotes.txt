@@ -1,0 +1,17 @@
+php artisan make:model Student -msc     # migration , seeder with Controller.
+
+php artisan migrate
+
+php artisan db:seed     # for faker data insertion.
+
+php artisan make:controller StudentController --resource    # controller with resource.
+
+
+
+################### Git Push Command #################
+git init
+git add .
+git commit -m "first commit laravel learners projects"
+git branch -M main
+git remote add origin git@github.com:Ashish-Kumar-Mandal/Laravel-Learners.git
+git push -u origin main
